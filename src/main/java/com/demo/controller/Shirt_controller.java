@@ -34,4 +34,8 @@ public class Shirt_controller {
      public String get() {
     	 return "saved";
      }
+     @GetMapping ("/new")
+     public String find() {
+    	 return "finished";
+     }
 }
