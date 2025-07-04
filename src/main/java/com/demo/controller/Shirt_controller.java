@@ -30,4 +30,8 @@ public class Shirt_controller {
      public Shirt_entity maximum (){
     	 return ss.max();
      }
+     @GetMapping ("/gtr")
+     public String get() {
+    	 return "saved";
+     }
 }
